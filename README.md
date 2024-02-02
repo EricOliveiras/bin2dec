@@ -21,10 +21,35 @@ constraints:
 
 ## User Stories
 
--   [ ] User can enter up to 8 binary digits in one input field
--   [ ] User must be notified if anything other than a 0 or 1 was entered
--   [ ] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
+-   [x] User can enter up to 8 binary digits in one input field
+-   [x] User must be notified if anything other than a 0 or 1 was entered
+-   [x] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
 
 ## Bonus features
 
--   [ ] User can enter a variable number of binary digits
+-   [x] User can enter a variable number of binary digits
+
+
+# How to run
+
+## Prerequisites
+You need to have the golang programming language installed - [Install here](https://go.dev/)
+
+## Installation
+
+1 - Clone de project repository:
+```
+git clone https://github.com/EricOliveiras/bin2dec.git
+```
+2 - Navigate to the project directory:
+```
+cd bin2dec
+```
+
+## Execution
+Now you are ready to run Bin2Dec. Use the following command:
+```
+go run cmd/main.go
+```
+
+**Note**: This project is inspired by the ideas from this repository: [app-ideas by florinpop17](https://github.com/florinpop17/app-ideas)
